@@ -21,7 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Wallace"
+            "name" : "Wallace_OBJ"
         }
     ],
     "materials" : [
@@ -308,7 +308,7 @@
     "buffers" : [
         {
             "byteLength" : 940664,
-            "uri" : "Wallace.glb.bin"
+            "uri" : "Wallace_OBJ.bin"
         }
     ]
 }
