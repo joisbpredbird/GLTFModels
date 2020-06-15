@@ -1,0 +1,298 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression",
+        "KHR_texture_transform"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression",
+        "KHR_texture_transform"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Viola_6-Seater",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Cloth1",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "extensions" : {
+                        "KHR_texture_transform" : {
+                            "offset" : [
+                                0,
+                                -29
+                            ],
+                            "scale" : [
+                                30,
+                                30
+                            ]
+                        }
+                    },
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "White1",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.42002391815185547,
+                    0.42002391815185547,
+                    0.42002391815185547,
+                    1
+                ],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.3083333373069763
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Grey1",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.021979287266731262,
+                    0.021979287266731262,
+                    0.021979287266731262,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Viola_6-Seater",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 6
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 10
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Red_Fabric",
+            "uri" : "Red_Fabric.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 33104,
+            "max" : [
+                2.8951199054718018,
+                2.0509440898895264,
+                -0.0985230877995491
+            ],
+            "min" : [
+                -0.3705858886241913,
+                -1.3075240850448608,
+                -0.8282335996627808
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 33104,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 33104,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 121794,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 76693,
+            "max" : [
+                2.7421584129333496,
+                1.9456181526184082,
+                0.0022550441790372133
+            ],
+            "min" : [
+                -0.26954102516174316,
+                -1.1681464910507202,
+                -0.5131357312202454
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 76693,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 76693,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 360039,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 950,
+            "max" : [
+                2.762268543243408,
+                1.9940464496612549,
+                -0.13890036940574646
+            ],
+            "min" : [
+                -0.3109487295150757,
+                -1.225596308708191,
+                -0.5097533464431763
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 950,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 950,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 3492,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 256405,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288352,
+            "byteOffset" : 256408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8493,
+            "byteOffset" : 544760
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 553256,
+            "uri" : "Viola_6-Seater.glb.bin"
+        }
+    ]
+}
