@@ -4,9 +4,11 @@
         "version" : "2.0"
     },
     "extensionsUsed" : [
+        "KHR_draco_mesh_compression",
         "KHR_texture_transform"
     ],
     "extensionsRequired" : [
+        "KHR_draco_mesh_compression",
         "KHR_texture_transform"
     ],
     "scene" : 0,
@@ -23,10 +25,10 @@
             "mesh" : 0,
             "name" : "Viola_6-Seater",
             "rotation" : [
-                0.7071068286895752,
+                1,
                 0,
                 0,
-                0.7071067094802856
+                -1.3435885648505064e-07
             ]
         }
     ],
@@ -109,8 +111,19 @@
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2
                     },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
                     "indices" : 3,
-                    "material" : 0
+                    "material" : 0,
+                    "mode" : 4
                 },
                 {
                     "attributes" : {
@@ -118,8 +131,19 @@
                         "NORMAL" : 5,
                         "TEXCOORD_0" : 6
                     },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 6
+                            }
+                        }
+                    },
                     "indices" : 7,
-                    "material" : 1
+                    "material" : 1,
+                    "mode" : 4
                 },
                 {
                     "attributes" : {
@@ -127,8 +151,19 @@
                         "NORMAL" : 9,
                         "TEXCOORD_0" : 10
                     },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 10
+                            }
+                        }
+                    },
                     "indices" : 11,
-                    "material" : 2
+                    "material" : 2,
+                    "mode" : 4
                 }
             ]
         }
@@ -140,110 +175,98 @@
     ],
     "images" : [
         {
-            "mimeType" : "image/jpeg",
+            "mimeType" : "image/png",
             "name" : "Red_Fabric",
-            "uri" : "Red_Fabric.jpg"
+            "uri" : "Red_Fabric.png"
         }
     ],
     "accessors" : [
         {
-            "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 33104,
+            "count" : 35101,
             "max" : [
                 2.8951199054718018,
-                2.0509440898895264,
-                -0.0985230877995491
+                -0.0985230877995491,
+                1.3075240850448608
             ],
             "min" : [
                 -0.3705858886241913,
-                -1.3075240850448608,
-                -0.8282335996627808
+                -0.8282335996627808,
+                -2.0509440898895264
             ],
             "type" : "VEC3"
         },
         {
-            "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 33104,
+            "count" : 35101,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 33104,
+            "count" : 35101,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 3,
             "componentType" : 5123,
             "count" : 121794,
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 76693,
+            "count" : 88098,
             "max" : [
                 2.7421584129333496,
-                1.9456181526184082,
-                0.0022550441790372133
+                0.0022550441790372133,
+                1.1681464910507202
             ],
             "min" : [
                 -0.26954102516174316,
-                -1.1681464910507202,
-                -0.5131357312202454
+                -0.5131357312202454,
+                -1.9456181526184082
             ],
             "type" : "VEC3"
         },
         {
-            "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 76693,
+            "count" : 88098,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 6,
             "componentType" : 5126,
-            "count" : 76693,
+            "count" : 88098,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 7,
             "componentType" : 5125,
             "count" : 360039,
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 8,
             "componentType" : 5126,
-            "count" : 950,
+            "count" : 975,
             "max" : [
                 2.762268543243408,
-                1.9940464496612549,
-                -0.13890036940574646
+                -0.13890036940574646,
+                1.225596308708191
             ],
             "min" : [
                 -0.3109487295150757,
-                -1.225596308708191,
-                -0.5097533464431763
+                -0.5097533464431763,
+                -1.9940464496612549
             ],
             "type" : "VEC3"
         },
         {
-            "bufferView" : 9,
             "componentType" : 5126,
-            "count" : 950,
+            "count" : 975,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 10,
             "componentType" : 5126,
-            "count" : 950,
+            "count" : 975,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 11,
             "componentType" : 5123,
             "count" : 3492,
             "type" : "SCALAR"
@@ -252,69 +275,24 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 397248,
+            "byteLength" : 269946,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 397248,
-            "byteOffset" : 397248
+            "byteLength" : 347322,
+            "byteOffset" : 269948
         },
         {
             "buffer" : 0,
-            "byteLength" : 264832,
-            "byteOffset" : 794496
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 243588,
-            "byteOffset" : 1059328
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 920316,
-            "byteOffset" : 1302916
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 920316,
-            "byteOffset" : 2223232
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 613544,
-            "byteOffset" : 3143548
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 1440156,
-            "byteOffset" : 3757092
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 11400,
-            "byteOffset" : 5197248
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 11400,
-            "byteOffset" : 5208648
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 7600,
-            "byteOffset" : 5220048
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 6984,
-            "byteOffset" : 5227648
+            "byteLength" : 8751,
+            "byteOffset" : 617272
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 5234632,
-            "uri" : "Viola_6-Seater.glb.bin"
+            "byteLength" : 626024,
+            "uri" : "Viola_6-Seater.bin"
         }
     ]
 }
